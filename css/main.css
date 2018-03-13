@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Athiti:400,500|Coiny');
+*{
+    font-family: 'Athiti', sans-serif;
+}
+/*cover top*/
+header.masthead {
+  background: url('../pic/cover.jpg') no-repeat center center fixed;  /*fixed*/
+  height: 40%;
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  background-size: 100%;
+  -o-background-size: auto;
+}
+
+header.masthead>.overlay {
+  padding: 20rem 0;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  height: 40%;
+}
+/*end*/
+.ml-auto{
+    margin-right: 1%;
+}
+h1{
+    font-size: 6rem;
+}
+/*#fullpage section{
+  height: 100vh;
+  overflow: hidden;
+  
+}
+section:nth-child(n){
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+section:nth-child(2n){
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #232323;
+  
+}*/
+.container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+}
+.head_topic{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 2rem;
+    text-align: center;
+}
+.bg-inverse{
+    opacity: 0.9;
+}
+@media (max-width: 767.98px) {
+    .nav-link{
+        text-align: center;
+    }
+}
+/*section*/
+/*.test{
+    background: #232323;
+    color:#fff;
+}
+.test2{
+    background: #acf;
+    color: #232323;
+}*/
+
+.box{
+    margin: 1% auto;
+    text-align: center;
+}
